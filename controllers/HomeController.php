@@ -1,8 +1,5 @@
 <?php 
-	class HomeController{
-		function __construct(){
-			
-		}
+	class HomeController extends Controller{
 		public function index_action(){
 			echo 'index';
 		}
