@@ -1,9 +1,8 @@
 <?php
-    class Controller {
-        public $view;
-        public $model;
-        public function __construct()
-        {
 
-        }
-    }
+namespace core\Controller;
+
+abstract class Controller
+{
+
+}
